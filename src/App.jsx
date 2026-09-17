@@ -190,9 +190,8 @@ function Projects() {
 
 function Skills() {
   const skills = [
-    "Full Stack Development", "Backend Development", "Python Programming", 
-    "Web Application Design", "Database Management", "JavaScript Libraries", 
-    "HTML5", "DevOps Practices", "Deployment Pipelines"
+    "Python Programming", "Web Application Design", "Database Management", "JavaScript Libraries", 
+    "HTML5", "Deployment Pipelines"
   ];
 
   return (
@@ -241,6 +240,33 @@ function Experience() {
             <h3>SSOC'26 Contributor</h3>
             <p>Contributed to impactful projects and gained hands-on experience in modern tech stacks.</p>
           </motion.div>
+          
+          {/*<motion.div
+             className="timeline-item glass-panel"
+             initial={{ opacity: 0, y: 30 }}
+             whileInView={{ opacity: 1, y: 0 }}
+             viewport={{ once: true }}
+           >
+             <h3>SVH WINNERS 2026 🏆 </h3>
+             <p>We created Surya—an AI-driven Virtual Power Plant (VPP) platform that aggregates hybrid renewable energy assets (Solar, Wind, and Battery Storage). It combines predictive forecasting, continuous digital twin simulations, and multi-objective optimization to route energy efficiently, cut carbon footprints, and reduce grid costs in real time. </p>
+          </motion.div>*/}
+          <motion.div
+            className="timeline-item glass-panel"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <div className="award-box">
+              <div className="award-text">
+                <h3>SVH WINNERS 2026 🏆</h3>
+                <p>We created Surya—an AI-driven Virtual Power Plant (VPP) platform that aggregates hybrid renewable energy assets (Solar, Wind, and Battery Storage). It combines predictive forecasting, continuous digital twin simulations, and multi-objective optimization to route energy efficiently, cut carbon footprints, and reduce grid costs in real time.</p>
+              </div>
+              <div className="award-image-wrap">
+                <img src="/winner.jpg" alt="SVH Winners 2026" className="award-image" />
+              </div>
+            </div>
+          </motion.div>
+
        </div>
     </section>
   );
