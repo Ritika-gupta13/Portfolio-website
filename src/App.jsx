@@ -112,7 +112,7 @@ function About() {
         >
           <h3>Who I Am</h3>
           <p>
-            First-year B.Tech Computer Science and Engineering student at VIT Bhopal University. 
+            Second-year B.Tech Computer Science and Engineering student at VIT Bhopal University. 
             I have a strong foundation in Python and have built two complete Flask web applications. 
             I am currently exploring modern full-stack development to build highly interactive and immersive digital experiences.
           </p>
@@ -240,16 +240,6 @@ function Experience() {
             <h3>SSOC'26 Contributor</h3>
             <p>Contributed to impactful projects and gained hands-on experience in modern tech stacks.</p>
           </motion.div>
-          
-          {/*<motion.div
-             className="timeline-item glass-panel"
-             initial={{ opacity: 0, y: 30 }}
-             whileInView={{ opacity: 1, y: 0 }}
-             viewport={{ once: true }}
-           >
-             <h3>SVH WINNERS 2026 🏆 </h3>
-             <p>We created Surya—an AI-driven Virtual Power Plant (VPP) platform that aggregates hybrid renewable energy assets (Solar, Wind, and Battery Storage). It combines predictive forecasting, continuous digital twin simulations, and multi-objective optimization to route energy efficiently, cut carbon footprints, and reduce grid costs in real time. </p>
-          </motion.div>*/}
           <motion.div
             className="timeline-item glass-panel"
             initial={{ opacity: 0, y: 30 }}
