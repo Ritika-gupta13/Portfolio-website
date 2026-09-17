@@ -157,7 +157,7 @@ function Projects() {
       link: "https://sehatpal-2.onrender.com/"
     },
     {
-      title: "Savjal",
+      title: "SavJal",
       desc: "built a prediction tool for the amount of money needed for RTRWH",
       link : "https://rtrhw-alternate.vercel.app/"
     }
