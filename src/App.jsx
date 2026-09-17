@@ -155,6 +155,11 @@ function Projects() {
       title: "SehatPal",
       desc: "Built a web-based emergency healthcare platform enabling quick access to medical information.",
       link: "https://sehatpal-2.onrender.com/"
+    },
+    {
+      title: "Savjal",
+      desc: "built a prediction tool for the amount of money needed for RTRWH",
+      link : "https://rtrhw-alternate.vercel.app/"
     }
   ];
 
